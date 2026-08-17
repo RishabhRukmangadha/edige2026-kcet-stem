@@ -1,0 +1,31 @@
+id,subject,level,name,v7
+P01,Physics,Class 11,Laws of Motion — Newton's Second Law,newton second law explain me what is force and mass relation i not understand fully
+P02,Physics,Class 11,Work Energy and Power — Conservation of Energy,energy conservation law means what energy not destroy only change form explain me
+P03,Physics,Class 11,Gravitation — Kepler's Laws,kepler law planet move around sun what happen explain simple
+P04,Physics,Class 12,Current Electricity — Ohm's Law and Resistivity,ohm law what is voltage current resistance how they related explain
+P05,Physics,Class 12,Electromagnetic Induction — Faraday's Laws,faraday law magnetic field and current what happen explain me
+P06,Physics,Class 12,Alternating Current — RMS Values and Resonance,alternating current rms value what means and resonance explain simple
+P07,Physics,Class 12,Ray Optics — Snell's Law and Total Internal Reflection,snell law light bend when go water explain what happen
+P08,Physics,Class 12,Wave Optics — Young's Double Slit Experiment,double slit experiment light wave explain what we see on screen
+P09,Physics,Class 12,Dual Nature of Matter — Photoelectric Effect,photoelectric effect light hit metal electron come out explain why
+P10,Physics,Class 12,Semiconductor Electronics — p-n Junction Diode,pn junction diode what is it how current flow explain simple
+C01,Chemistry,Class 11,States of Matter — Boyle's Law and Gas Laws,boyle law gas pressure volume what happen explain me simple
+C02,Chemistry,Class 11,Chemical Equilibrium — Le Chatelier's Principle,le chatelier principle equilibrium shift explain what happen when we change
+C03,Chemistry,Class 11,Redox Reactions — Oxidation and Reduction,oxidation reduction reaction explain what is difference between them
+C04,Chemistry,Class 11,Chemical Bonding — Ionic and Covalent Bonds,ionic bond covalent bond what is difference explain with example
+C05,Chemistry,Class 12,Solutions — Molarity and Mole Concept,molarity mole concept explain what is mole and how calculate molarity
+C06,Chemistry,Class 12,Electrochemistry — Galvanic Cell and EMF,galvanic cell how it work chemical energy to electric energy explain
+C07,Chemistry,Class 12,Chemical Kinetics — Rate of Reaction and Activation Energy,rate of reaction what affect it activation energy explain simple
+C08,Chemistry,Class 12,Solid State — Crystal Structure and Unit Cell,unit cell crystal structure explain what is it and types
+C09,Chemistry,Class 12,Coordination Compounds — IUPAC Nomenclature,coordination compound iupac name how to write explain with example
+C10,Chemistry,Class 12,Organic Chemistry — Aldehydes and Ketones Nucleophilic Addition,aldehyde ketone what is nucleophilic addition explain simple
+M01,Maths,Class 11,Trigonometric Functions — Identities and Equations,trigonometry identities sin cos tan explain all formula simple
+M02,Maths,Class 11,Straight Lines — Slope and Equation Forms,straight line equation slope what is it explain how to find
+M03,Maths,Class 11/12,Limits and Continuity — Definition and Properties,limit continuity what is meaning explain simple with example
+M04,Maths,Class 12,Differentiation — First Principles and Rules,differentiation first principle what is it explain how to do
+M05,Maths,Class 12,Integration — Definite Integrals and Area Under Curve,integration area under curve what it mean explain simple
+M06,Maths,Class 12,Matrices and Determinants — Properties and Solutions,matrix determinant how to calculate explain step by step
+M07,Maths,Class 12,Probability — Bayes Theorem and Conditional Probability,bayes theorem probability explain what is conditional probability
+M08,Maths,Class 12,Three Dimensional Geometry — Direction Cosines,direction cosines 3d geometry what is it explain simple
+M09,Maths,Class 11,Binomial Theorem — General Term and Middle Term,binomial theorem general term middle term explain with example
+M10,Maths,Class 11,Permutations and Combinations — Counting Principles,permutation combination what is difference explain with example

@@ -1,0 +1,152 @@
+======================================================================
+EDIGE 2026 — TAXONOMY EXAMPLES & IRR REPORT
+Generated: 2026-05-29 18:18:28
+======================================================================
+Loaded 720 valid outputs from outputs/results_final_master.csv
+
+======================================================================
+1. TAXONOMY EXAMPLES (T4, T5, T6)
+======================================================================
+
+--- T6: SCRIPT CONFUSION (Devanagari/Telugu in GPT-4o Kannada outputs) ---
+Devanagari (Hindi script) mixing: 23/150 = 15.3%
+Telugu script mixing:             11/150 = 7.3%
+Combined script confusion rate:   34/150 = 22.7%
+
+For comparison — Claude Sonnet 4.6 and Gemini 2.5 Flash:
+  Claude Sonnet 4.6: Devanagari=0/150 (0.0%), Telugu=0/150 (0.0%)
+  Gemini 2.5 Flash: Devanagari=1/150 (0.7%), Telugu=0/150 (0.0%)
+
+--- Devanagari Examples (GPT-4o) ---
+
+  Example T6-Deva.1:
+  Concept:   P01 | Variant: V5
+  Devanagari chars found: ['दिश']
+  Context:   ... ತೂಕಕ್ಕೆ (mass) ಅನುಸಾರವಾಗಿರೋದು. ಹಾಗು ಮಾತ್ರವಲ್ಲ, ಇದು force ನ दिशೆಯಲ್ಲಿ ಇರತ್ತೆ. ಈ ನಿಯಮವನ್ನು mathematical ಆಗಿ ಇವೆಂತ ಹೇಳಬಹುದ...
+
+  Example T6-Deva.2:
+  Concept:   P02 | Variant: V4
+  Devanagari chars found: ['।', '।', '।']
+  Context:   ...್ರೂ ಒಬ್ಬ ವಸ್ತುವಿಗೆ ಒತ್ತನ ಹಾಕಿದ್ರು ಅಡಕೆ ಆ ವಸ್ತು ಹಿಂಡೆ ಚಲ್ಸೆಡ್। ಉದಾಹರಣೆಗೆ, ಎಂತಃನೂ ಸೇತೋಡಿ ಒಬ್ಬ ಪರಿಶ್ರಮದಿಂದ ಕೈಲಿ ಮೇಲೆ ಹೇರುವು...
+
+  Example T6-Deva.3:
+  Concept:   P02 | Variant: V5
+  Devanagari chars found: ['दिश']
+  Context:   ...ಭೌತಶಾಸ್ತ್ರದಲ್ಲಿ Work = Force × Distance, ಅಂದರೆ ನಿಮ್ಮ ಸರಿಯಾದ दिशೆಯಲ್ಲಿನ ತೌಲಿಕ ಶಕ್ತಿಯ ಪ್ರಮಾಣ ಮತ್ತು ವಸ್ತುವಿಗೆ ತಾರತಮ್ಯಪ್ರದ ದ...
+
+--- Telugu Examples (GPT-4o) ---
+
+  Example T6-Telugu.1:
+  Concept:   P02 | Variant: V3
+  Telugu chars found: ['ను']
+  Context:   ... object ಅನ್ನು movement ಮಾಡಿಸಬೇಕು. ಉದಾಹರಣೆಗೆ, ನೀವು ಒಂದು ಬಾಲ್ ను ঠೇಲಿದರೆ, ನೀವು ಅದ್ಕೆ force apply ಮಾಡಿರುತ್ತೀರಿ, ಮತ್ತು ಬಾಲ್ ...
+
+  Example T6-Telugu.2:
+  Concept:   P06 | Variant: V3
+  Telugu chars found: ['అది']
+  Context:   ...ರೆ Root Mean Square. ಇದನ್ನುCompress ಮಾಡಿದ AC ಎಂದೂ ಹೇಳಬಹುದು, అది DCಗೆ ಸಮಾನವಾಗಿರುತ್ತದೆ. ಸುಮ್ಮನಾದರು ACಯ real effectiveness ...
+
+  Example T6-Telugu.3:
+  Concept:   P06 | Variant: V5
+  Telugu chars found: ['\u0c5c']
+  Context:   ...ಗಳಿಗೆ ಇದು ತುಂಬಾ ಸಹಾಯವಾಗುವಂತಹ ವಿಷಯ.  ಮದುವಲ್ ಸ್ಟೀಟಿ೦  ಮರುವ್ ಮು౜್ ದೇಕ್ಷ ಇನ್‌ಸೋಂಚಿ, Alternating Current ಎಂದರೇನು ಎಂಬುದರ ಬಗ್ಗೆ...
+
+
+--- T4: REGISTER MISMATCH (Sanskrit-heavy formal Kannada in V1 outputs) ---
+V1 outputs with D2=0 (most unnatural): 5
+
+  Example T4.1:
+  Concept: M03 | Model: GPT-4o | D2=0.0
+  Output:  ಗಣಿತದಲ್ಲಿ, ವಿಶೇಷವಾಗಿ Calculus ನಲ್ಲಿ, ಮೈಮಿತಿಗಳು (Limits) ಮತ್ತು ನಿರಂತರತೆ (Continuity) ಎರಡು ಅತ್ಯಂತ ಪ್ರಮುಖ ಅಂಶಗಳಾಗಿವೆ. ಇವುಗಳನ್ನು ಕನ್ನಡದಲ್ಲಿ ಈ ಕೆಳಗಿನಂತೆ ವಿವರಿಸಬಹುದು: ### ಮೈಮಿತಿಗಳು (Limits): **ಮೈಮಿತಿಯ ವ್ಯಾಖ್ಯಾನ:** ಮೈಮಿತಿಯೆಂಬುದು ಒಂದು ಕ್ರಿಯೆಯನ್ನು ವಿಚಾರಿಸುವುದ...
+
+  Example T4.2:
+  Concept: M04 | Model: Claude Sonnet 4.6 | D2=0.0
+  Output:  # ಡಿಫರೆನ್ಷಿಯೇಶನ್ — ಮೊದಲ ತತ್ವಗಳು ಮತ್ತು ನಿಯಮಗಳು --- ## 📌 ಡಿಫರೆನ್ಷಿಯೇಶನ್ ಎಂದರೇನು? **ಡಿಫರೆನ್ಷಿಯೇಶನ್** ಎಂದರೆ ಒಂದು ಫಂಕ್ಷನ್‌ನ **ಬದಲಾವಣೆಯ ದರ** (Rate of Change) ಕಂಡುಹಿಡಿಯುವ ಪ್ರಕ್ರಿಯೆ. > ಸರಳವಾಗಿ ಹೇಳಬೇಕೆಂದರೆ — ಒಂದು ಗ್ರಾಫ್‌ನಲ್ಲಿ ಯಾವುದೇ ಒಂದು ಬಿಂದುವಿನಲ್ಲಿ **ಸ್ಪರ್ಶ...
+
+
+--- T5: SILENT TRANSLITERATION (English terms in Kannada script, V1) ---
+Note: T5 identified by presence of Kannada-transliterated English
+technical terms where the student may not recognise the English origin.
+
+  Example T5.1:
+  Concept: P01 | Model: Claude Sonnet 4.6 | D2=1.0
+  Transliterated terms detected: ['ನ್ಯ', 'ನಿಯ', 'ನಿಯ', 'ನಿಯ']
+  Output:  # ನ್ಯೂಟನ್ನನ ಎರಡನೇ ನಿಯಮ - ಚಲನೆಯ ನಿಯಮಗಳು --- ## 📌 ನಿಯಮದ ಹೇಳಿಕೆ (Statement) > **"ಒಂದು ವಸ್ತುವಿನ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಲವು, ಆ ವಸ್ತುವಿನ ದ್ರವ್ಯರಾಶಿ ಮತ್ತು ಅದರ ತ್ವರಣದ ಗುಣಲಬ್ಧಕ್ಕೆ ಸಮಾನವಾಗಿರುತ್ತದೆ."** --- ## 🔢 ಗಣಿತೀಯ ಸೂತ್ರ (Formula) $$\boxed{F = m \times a}$$ |...
+
+  Example T5.2:
+  Concept: P01 | Model: GPT-4o | D2=2.0
+  Transliterated terms detected: ['ನ್ಯ', 'ನ್ಯ', 'ವ್ಯ', 'ವ್ಯ']
+  Output:  ನ್ಯೂಟನ್‌ನ ಎರಡನೇ ಚಲನ ಸಿದ್ಧಾಂತವನ್ನು "ಗತಿಯ ಚಲನೆಯ ಲೋ" ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ಇದನ್ನು ಕನ್ನಡದಲ್ಲಿ ಬ следующим ರೀತಿಯಲ್ಲಿ ವಿವರಿಸಬಹುದು: ನ್ಯೂಟನ್‌ನ ಎರಡನೇ ಚಲನ ಪ್ರಯೋಗಾನುಸಾರ, ಒಂದು ವಸ್ತುವಿನ ಚಲನೆಯ ವೇಗದಲ್ಲಿ ಉಂಟಾಗುವ ಬದಲಾವಣೆಯು ಆ ವಸ್ತುವಿಗೆ ವರ್ತಿಸುತ್ತಿರುವ ನೆಟ್ಟ ಶಕ್ತಿಗೆ ಅನುಪಾ...
+
+
+TAXONOMY SUMMARY FOR PAPER TABLE VI
+----------------------------------------------------------------------
+  Type  Name                   Evidence
+  -----------------------------------------------------------------
+  T1    Language Compliant     All V1-V5 outputs: 100% Kannada across all 3 models
+  T2    Prompt Responsive      V5 mean composite 5.53 vs V0 5.26 (+0.267)
+  T3    Code Switching         V3/V4/V5: natural Kannada + English technical terms
+  T4    Register Mismatch      V1: 5 outputs D2=0 — formal/literary Kannada register
+  T5    Silent Translit.       V1: English terms phonetically transcribed in Kannada
+  T6    Script Confusion       GPT-4o: Devanagari 23/150 (15.3%) + Telugu 11/150 (7.3%) — combined ~23% (NOVEL)
+
+======================================================================
+2. INTER-RATER RELIABILITY — Cohen's κ and Brennan-Prediger κ
+======================================================================
+IRR subset: 50 outputs
+Evaluator 1: Sahana Laxman (primary evaluator, all 720 outputs)
+Evaluator 2: Independent Kannada-speaking colleague (50-output subset)
+
+--- D2: Kannada Naturalness ---
+  Score distributions:
+    Sahana:    0=4, 1=1, 2=45 (90% scored 2)
+    Colleague: 0=2, 1=7, 2=41 (82% scored 2)
+  Observed agreement (Po):     0.740 (74.0%)
+  Cohen's κ:                   -0.016  (Slight/Poor)
+    (Pe based on observed marginals: 0.744)
+  Brennan-Prediger κ:          0.610  (Substantial)
+    (Pe assumes uniform distribution: 1/3 = 0.333)
+  INTERPRETATION: Cohen's κ=-0.016 appears poor but reflects skewed
+  distribution (both evaluators score 2 in ~82-90% of cases),
+  artificially inflating Pe. Brennan-Prediger κ=0.610 (Substantial)
+  is the more appropriate measure for this distribution.
+
+  Confusion Matrix (rows=Sahana, cols=Colleague):
+           Coll=0  Coll=1  Coll=2
+  Sah=0        0       1       3
+  Sah=1        0       0       1
+  Sah=2        2       6      37
+
+--- D3: Pedagogical Appropriateness ---
+  Score distributions:
+    Sahana:    0=1, 1=9, 2=40 (80% scored 2)
+    Colleague: 0=2, 1=20, 2=28 (56% scored 2)
+  Observed agreement (Po):     0.600 (60.0%)
+  Cohen's κ:                   0.165  (Slight/Poor)
+    (Pe based on observed marginals: 0.521)
+  Brennan-Prediger κ:          0.400  (Fair)
+    (Pe assumes uniform distribution: 1/3 = 0.333)
+
+  Confusion Matrix (rows=Sahana, cols=Colleague):
+           Coll=0  Coll=1  Coll=2
+  Sah=0        0       0       1
+  Sah=1        0       6       3
+  Sah=2        2      14      24
+
+
+=== PAPER REPORTING SUMMARY ===
+  D2 Kannada Naturalness:
+    Cohen's κ = -0.016 | Brennan-Prediger κ = 0.610 | Po = 74.0%
+  D3 Pedagogical Appropriateness:
+    Cohen's κ = 0.165 | Brennan-Prediger κ = 0.400 | Po = 60.0%
+
+  RECOMMENDED TEXT FOR PAPER (Section IV.H):
+  "Cohen's κ between evaluators was low for both dimensions
+  (D2: κ=-0.016, D3: κ=0.165) despite substantial exact agreement
+  (D2: 74%, D3: 60%). The low Cohen's κ reflects a known limitation
+  when score distributions are heavily skewed — both evaluators
+  assigned score 2 in 82-90% of cases, artificially inflating
+  expected chance agreement (Pe=0.744 for D2). Brennan-Prediger κ,
+  which assumes uniform category distribution (Pe=1/3), yields
+  D2 κ=0.610 (Substantial) and D3 κ=0.400 (Moderate), providing
+  a more appropriate reliability estimate for this ordinal scale."

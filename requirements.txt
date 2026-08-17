@@ -1,0 +1,21 @@
+# Core API clients — exact versions used in the original experiment
+anthropic==0.72.0
+openai==2.38.0
+google-generativeai==0.8.6
+
+# Data processing — exact versions used
+pandas==2.2.2
+scipy==1.13.1
+
+# Model evaluation
+bert-score==0.3.13
+torch==2.12.0
+transformers==5.9.0
+
+# Utilities — mature, slow-changing packages; exact original versions
+# weren't recoverable from the build environment, so minimum versions
+# are given instead of precise pins. Any reasonably current release
+# should behave identically for how these are used in this project.
+openpyxl>=3.1.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
